@@ -2,7 +2,7 @@
 title: "MagicalVoxelで作った3Dオブジェクトをサイトに表示させるまで"
 emoji: "🧱"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [threejs]
+topics: [threejs, javascript]
 published: false
 ---
 
@@ -14,9 +14,21 @@ windows環境です。
 
 # MagicalVoxelで3Dオブジェクトを作る
 
+ニンテンドースイッチを作ってみました。これをブラウザで表示させたい。
 
+![](https://storage.googleapis.com/zenn-user-upload/oiod4oraqk5pkhua7b21dtcdo4cy)
+
+objファイルにエクスポートしておきます。
+
+![](https://storage.googleapis.com/zenn-user-upload/sev7sxs8llo8p0figryk8qego9lz)
 
 # three.js の開発環境を作る
+
+https://threejs.org/
+
+> three.jsは、ウェブブラウザ上でリアルタイムレンダリングによる3次元コンピュータグラフィックスを描画する、クロスブラウザ対応の軽量なJavaScriptライブラリ及びアプリケーションプログラミングインタフェースである。[wikipedia](https://ja.wikipedia.org/wiki/Three.js)
+
+この three.js というライブラリを用いて、レンダリングを試みます。
 
 [最新版で学ぶwebpack 5入門 JavaScriptのモジュールバンドラ](https://ics.media/entry/12140/)
 
