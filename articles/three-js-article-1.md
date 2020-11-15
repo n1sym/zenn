@@ -3,7 +3,7 @@ title: "MagicalVoxelで作った3Dオブジェクトをサイトに表示させ�
 emoji: "🧱"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [threejs, javascript]
-published: false
+published: true
 ---
 
 # はじめに
