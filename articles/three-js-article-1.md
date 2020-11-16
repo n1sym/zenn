@@ -42,7 +42,7 @@ $ npm init -y
 
 $ npm install -D webpack webpack-cli webpack-dev-server babel-loader @babel/core  @babel/preset-env
 
-npm install three
+$ npm install three
 ~~~
 
 `package.json` が生成されます。便利のため、`scripts`にビルドコマンド等を追記しておきます。
@@ -191,7 +191,7 @@ animate();
 
 # three.js で3Dオブジェクトファイルを読み込む
 
-用意しておいたオブジェクトファイルを格納するためのmodelフォルダをdistに用意します。
+用意しておいたオブジェクトファイルを格納するためのmodelsフォルダをdistに用意します。
 
 ```
 .
