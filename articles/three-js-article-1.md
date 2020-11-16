@@ -1,5 +1,5 @@
 ---
-title: "MagicalVoxelで作った3Dオブジェクトをサイトに表示させるまで"
+title: "MagicaVoxelで作った3Dオブジェクトをサイトに表示させるまで"
 emoji: "🧱"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [threejs, javascript]
@@ -12,7 +12,7 @@ windows環境です。
 初学者なので不備などありましたらご指摘ください。
 
 
-# MagicalVoxelで3Dオブジェクトを作る
+# MagicaVoxelで3Dオブジェクトを作る
 
 ニンテンドースイッチを作ってみました。これをブラウザで表示させたい。
 
