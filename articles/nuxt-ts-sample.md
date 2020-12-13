@@ -62,7 +62,7 @@ export default {
 }
 ```
 
-ストア(Vuex)を導入して状態管理を試みます。
+こちらにストア(Vuex)を導入して状態管理を試みます。
 
 https://typescript.nuxtjs.org/ja/cookbook/store/
 
@@ -72,7 +72,7 @@ https://typescript.nuxtjs.org/ja/cookbook/store/
 npm install -D vuex-module-decorators
 ```
 
-モジュールとして、store の内容を記述します。
+モジュールとして、store の内容を記述します。タスクの内容は外部から直接変更できないようになっています。
 
 ~~~ts:store/todo.ts
 import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
@@ -101,7 +101,7 @@ export default class Todos extends VuexModule {
 }
 ~~~
 
-アクセサーを作ります。新たに`store`を作りたいときはここに追記していく必要があります。
+アクセサーを作ります。新たに store を作りたいときはここに追記していく必要があります。
 
 ~~~ts:utils/store-accessor.ts
 /* eslint-disable import/no-mutable-exports */
