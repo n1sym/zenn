@@ -1,0 +1,23 @@
+title: "React + TwitterAPI + Lambda でwebアプリを作ってみる"
+summary: |-
+  twitterでいいねした画像を取得して、Masonry(石畳状)レイアウトで並べるサイトを作ります。
+
+topics: ["Twitter", "Lambda", "react", "TypeScript"] # トピック（5つまで）
+published: true # falseだと下書き
+price: 0 # 有料の場合200〜5000
+chapters:
+  - first-chapter
+  - react-setup
+  - twitter-api
+  - lambda
+  - twitter-fav
+  - rest-api
+  - mock
+  - form
+  - axios
+  - masonry-layout
+  - responsive
+  - inf-loading
+  - helmet
+  - deploy
+  - final-chapter
