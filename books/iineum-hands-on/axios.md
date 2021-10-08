@@ -28,7 +28,7 @@ type typeImageTableState = {
 
 type typeImages = {
   url: string[];
-  height: string[];
+  height: number[];
   source: string[];
   max_id: string;
 };
