@@ -1,6 +1,6 @@
 ---
 title: "Rails+AzureADでSAML認証のSSOを実装する"
-emoji: "🔓"
+emoji: "🔒"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [rails, saml, azure, azuread, activedirectory]
 published: true
