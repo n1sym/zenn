@@ -17,7 +17,7 @@ published: true
 
 # Railsアプリの前準備
 
-### gem のインストール
+## gem のインストール
 
 SAMLのライブラリとして`ruby-saml` を、認証情報を扱うので`dotenv-rails`をインストール。
 
@@ -26,7 +26,7 @@ gem 'ruby-saml'
 gem 'dotenv-rails'
 ~~~
 
-### 認証周りのコードを書く
+## 認証周りのコードを書く
 
 `ruby-saml`はRails用の[サンプルコード](https://github.com/onelogin/ruby-saml-example)が用意されているので、それをそのままコピペする。
 
@@ -47,7 +47,7 @@ https://portal.azure.com/#home
 
 アプリケーションが作成されたら、「シングルサインオンの設定」->「SAML」を選択し、SAMLによるシングルサインオンのセットアップに入ります。
 
-### 基本的なSAML構成
+## 基本的なSAML構成
 
 ここでは以下の2点を入力する必要がある。
 
@@ -70,13 +70,13 @@ https://portal.azure.com/#home
 - 応答 URL (Assertion Consumer Service URL)
   - `http://localhost:3000/saml/acs`
 
-### ユーザー属性とクレーム
+## ユーザー属性とクレーム
 
 とりあえず最小限に、メールアドレスと名前のみを要求する。
 
 ![](https://i.imgur.com/cxP0V17.png)
 
-一意のユーザー識別子は`user.mail`と設定。その横に書いてある`nameid-format:emailAddress`みたいなコードも確認しておく。(Railsアプリ側にも登録してく必要があるため)
+一意のユーザー識別子は`user.mail`と設定。その横に書いてある`nameid-format:emailAddress`みたいなコードも確認しておく。(Railsアプリ側にも登録しておく必要があるため)
 
 
 ~~~ruby:app/models/account.rb
@@ -89,7 +89,7 @@ https://portal.azure.com/#home
 NAME_ID_FORMAT=urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
 ~~~
 
-### SAML署名証明書
+## SAML署名証明書
 
 ここでBase64証明書をダウンロードして、Railsアプリの`config`下に保存する。
 
@@ -101,7 +101,7 @@ NAME_ID_FORMAT=urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
 証明書の有効期限が切れたら作り直す必要があるので留意しておきましょう。
 
 
-### (任意のアプリ名)のセットアップ
+## (任意のアプリ名)のセットアップ
 
 AzureAD識別子、ログインURL、ログアウトURLが表示されているので、Railsアプリに登録する。SSOがシングルサインオン、SLOがシングルログアウトの略。
 
