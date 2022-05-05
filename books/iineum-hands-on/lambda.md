@@ -42,7 +42,7 @@ const client = new twitter({
 });
 
 exports.handler = async () => {
-  const params = { screen_name: "hukurouo_code", count: 1 };
+  const params = { screen_name: "hukurouo", count: 1 };
   await client
     .get("favorites/list", params)
     .then((tweet) => {

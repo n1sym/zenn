@@ -6,4 +6,4 @@ title: "おわりに"
 
 https://github.com/hukurouo/Twitter-favorite-illust-masonry-sample
 
-なにかありましたら、[ツイッター](https://twitter.com/hukurouo_code)までお願いします。
+なにかありましたら、[ツイッター](https://twitter.com/n1sym)までお願いします。
