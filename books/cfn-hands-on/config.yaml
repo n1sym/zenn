@@ -2,7 +2,7 @@ title: "Rails × CloudFormation ハンズオン"
 summary: |-
   CloudFormationを使って、インフラ構築を自動化/コード化してみます。この本ではハンズオン形式で Rails を ECS/Fargate にデプロイすること、CI/CD環境を作ること、ログの監視ができるようにすることを目指します。
 
-topics: ["CloudFormation", "Rails"] # トピック（5つまで）
+topics: ["cloudformation", "rails"] # トピック（5つまで）
 published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
