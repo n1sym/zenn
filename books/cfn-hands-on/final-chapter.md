@@ -17,3 +17,5 @@ CloudFormation の本を書くはずが、気づいたら Rails の設定や Git
 https://github.com/n1sym/rails-cfn-hands-on
 
 何かお気づきの点などありましたら、[Twitter](https://twitter.com/n1sym) または以下のスクラップまでお願いします。
+
+https://zenn.dev/hukurouo/scraps/38bb94fdff6afd
