@@ -222,7 +222,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
       VpcId: !Ref Vpc
       SecurityGroupEgress:
         - CidrIp: 0.0.0.0/0
-          Description: Allow all outbound traffic by default
+          Description: Security Group of Ingress
           IpProtocol: "-1"
       SecurityGroupIngress:
         - CidrIp: 0.0.0.0/0
@@ -454,7 +454,7 @@ Resources:
   SecurityGroupIngress:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: ECS Allowed Ports
+      GroupDescription: Security Group of Ingress
       VpcId: !Ref Vpc
       SecurityGroupEgress:
         - CidrIp: 0.0.0.0/0
