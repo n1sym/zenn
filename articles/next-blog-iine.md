@@ -3,7 +3,7 @@ title: "Next.js のチュートリアルで作ったブログに5分でいいね
 emoji: "👍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs"]
-published: false
+published: true
 ---
 
 # はじめに
